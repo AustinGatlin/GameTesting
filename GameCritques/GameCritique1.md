@@ -12,14 +12,15 @@
 ## Overall Impressions
 Despite it's simplicity, my impression of Sheepwith was extremely positive. The overall art and sound design was reminiscent of 90's DOS titles and quickly bread a sense of familiarity. The controls were made and felt natural, and the levels provided enough of a challenge to keep you constantly engaged which made for a great gameplay experience. 
 
-
-
 ## Things to Test
 
-1. plane rotation. why? So controls don't go backwards when switching directions.
+As a tester, four functions that I would immediately begin to test are: 
 
-2. Grapple. Why? to make sure it can't get caught and make you lose.
+1. Plane controls, particularly changing directions from left to right and from right to left. When the player changes left or right, the controls allow you to smoothly transition from one direction to the other by keeping it consistent; pressing forward still moves your plane in the directio it's facing, left still makes it face more upwards, and right more downwards. If I were a tester this would be one of the first things I tested to make sure that the face up and face down controls didn't change with the switching of directions. 
 
-3. Time only moves on screen. Why? Because some events need to not occur before you have a chance to see/do something about it.
+2. The next feature I would test is the rope and grabber. The rope and grabber simply dangle from the bottom of the airplane, with no way of controlling them aside from how you move the airplane. As a tester, my main concern with the robe and grabber would be in how it interacts with other objects. Does it pass through the airplane or collide with it? Is it supposed to? Can the grabber get caught on the terrain or obsticles, impeding movement? 
 
-4. Sheep can't get in pen by themselves. Why? Because it would be game breaking if they could
+3. Another feature I would be sure to test is how the sheep behave and interact with the world, in particular, their pens. While some of the sheep stay completely still, others will jump back and forth in a small area. What I would want to test is whether or not the sheep that jump would be able to jump into their pen on their own. If they could, it could potentially lead to game breaking results. 
+
+4. The othe major functionality that I would test would be the game's time system. Time, in this game, only effects what you can see on your screen. This can most clearly be seen if you die while an object is falling, then, when the object is once again on screen, it resumes its fall from exactly where it was when you died. While this feature itself may seem like a bug on the surface, it's a tool that the developer uses for triggering certain events. For example, often times in a level there will be wolves positioned near sheep, but will only lunge for the sheep once they are both on screen. This gives you time to grab the sheep before it can be eaten. If the game's timing does not work and those events progress without being on screen, then certain levels would be impossible to complete
+
