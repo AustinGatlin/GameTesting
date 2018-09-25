@@ -20,3 +20,4 @@ Another tool that Heroku has that's useful for the production phase is their Rel
 from the staging environment directly to their production environment.
 
 ## How I would use it
+If I were working on an online game project then I would use the various functionalities and tools of Heroku to make development and testing easier and quicker. I would use Heroku CI to help run unit tests on new features whenever they were made, Review Apps for when I needed to run QA tests in a QA environment. I would also use thier production environment for running networking and server capacity testing and then push all completed changes to the end user product with the Release tool. 
