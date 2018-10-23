@@ -1,4 +1,4 @@
-# Game Critique 1 
+# Game Critique 2
 ## Details
 * Title: Raze 2
 * Developer: JuiceTin
