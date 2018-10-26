@@ -10,15 +10,20 @@ var driver = new webdriver.Builder()
     .forBrowser('chrome')
     .build();
 
-driver.get('https://www.armorgames.com');
+driver.get('https://store.steampowered.com/');
 
+driver.findElement(By.name('term')).sendKeys('morrowind');
 
-driver.sleep(3300).then(function() {
-  driver.getTitle().then(function(title) {
-    if(title === 'Play Free Games Online at Armor Games') {
-      console.log('The test was successful');
+driver.sleep(9000).then(function() {
+  driver.findElement(By.name('term')).sendKeys(webdriver.Key.ENTER);
+});
+
+driver.sleep(22000).then(function() {
+  driver.getCurrentUrl().then(function(url) {
+    if(url == 'https://store.steampowered.com/search/?term=morrowind') {
+      console.log('Test passed');
     } else {
-      console.log('The test was unsuccessful');
+      console.log('Test failed');
     }
     driver.quit();
   });
@@ -27,7 +32,9 @@ driver.sleep(3300).then(function() {
 
 
 ## Results
-C:\Users\Ushank Shabak\Desktop\SeleniumTest>node armorgamestest
+C:\Users\Ushank Shabak\Desktop\SeleniumTest>node steamtest
 
-DevTools listening on ws://127.0.0.1:50596/devtools/browser/4a29e086-3027-45d3-8938-c5626dec1e24
-The test was successful
+DevTools listening on ws://127.0.0.1:62616/devtools/browser/0bc60678-8a4e-4b97-8ae4-32252994bc43
+Test passed
+
+C:\Users\Ushank Shabak\Desktop\SeleniumTest>
