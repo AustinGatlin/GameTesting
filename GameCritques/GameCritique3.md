@@ -1,4 +1,4 @@
-# Game Critique 2
+# Game Critique 3
 
 ## Details
 * Title: Pharaoh 
