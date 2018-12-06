@@ -28,13 +28,13 @@ Type of testing: This bug would be found and identified during functionality tes
 How I would identify the bug: I would start a new game, join a session and use the developer's console commands and tools to automatically increase my character's sneak to maximum. Then I would find various monsters and sneak attack them and wait to see if they instantly know my location or not. 
 
 ### Bug 4 
-The bug: 
+The bug: Power armor decreasing max carry weight
 
-Box type: 
+Box type: white box 
 
-Type of testing:
+Type of testing: Unit testing. This issue is clearly isolated to the power armor itself and how it effects the player's max carry weight. Unit testing the power armor would have caught that the power armor has an issue with the player's carry weight since a unit test would make sure that each function of the power armor behaves as it should.
 
-How I would identify the bug:
+How I would identify the bug: I would start a new game and join a session. Then, I would note what my max carry weight is, and get in and out of the power armor, each time taking note of what my max carry weight is.
 
 
 ### Bug 5
