@@ -39,10 +39,10 @@ How I would identify the bug: I would start a new game and join a session. Then,
 
 ### Bug 5
 
-The bug: 
+The bug: Snipers scopes enlarge long distance textures
 
-Box type: 
+Box type: whitebox testing since a white box tester would be checking graphics and functionality like this. 
 
-Type of testing:
+Type of testing: Functionality testing. This issue is a graphical issue that is also related to the functionality of the sniper scope. The sniper scope does not change the textures it is zooming in on to a closer range version of the texture and as such, is not functioning properly.
 
-How I would identify the bug:
+How I would identify the bug: Start a new game and join a sesssion. Use the developer's console commands to spawn a sniper with a scope. Look at distant terrain using the scope and note if they are the close range or long range textures for that terrrain. 
