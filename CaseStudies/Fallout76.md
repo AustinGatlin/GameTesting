@@ -1,8 +1,13 @@
 # Fallout 76 bugs 
 
 ### Bug 1
-Budget not matching buildings owned and items in storage. 
-I believe this is something that would have been caught with black box testing. 
+The bug: Radroaches opening doors. 
+
+Box type: This bug should have been found in whitebox testing. Since the whitebox teseters know exactly how things should react and are familiar with the inner workings of the game, they should have been able to see that an AI is behaving in a way that they never intended. 
+
+Type of testing: This would fall under unit testing. Radroaches opening doors seems to be an issue directly related to Radroaches alone. As such, a unit test on radroaches should be able to locate the exact issue. 
+
+How I would identify the bug: I would start the game. Load into a lobby, and find a radroach. Having found the radroach, I would then attack it so that it would follow me. While it's following me, I would lead it to a location that has a closable door. I would then get on the opposite side of the door from the radroach and then close it.
 
 ### Bug 2
 The bug: Carrying too many holotapes causes the holotapes towards the buttom of the list to not load into terminals.
