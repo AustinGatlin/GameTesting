@@ -19,7 +19,30 @@ Type of testing: The type of testing that should be used to identify and this bu
 How I would identify the bug: To identify this particular bug, I would start a session on a new account with a new character. After creating a new character, I would then collect as many quests as I could. Once reaching 25 quests collected, but not completed, I would then proceed to a terminal to use the holotapes. Once there, I would begin by trying to load the bottom holotape. If it works, then repeat the process 3 more times to ensure that it does consistently work. If it doesn't, make a bug report ticket and repeat the steps after each potential fix for the bug has been made. 
 
 ### Bug 3
+The bug: Monsters instantly knowing where the player is after a stealth attack. 
+
+Box type: This bug should have been identified in whitebox testing. A whitebox tester is exactly the type of tester that would be testing core game functionality such as sneaking.
+
+Type of testing: This bug would be found and identified during functionality testing. If a monster isn't responding to being sneak attacked, then the portion of the monster's functionality that handles detection is not working properly and should have been caught during a functoinality test on the AI.
+
+How I would identify the bug: I would start a new game, join a session and use the developer's console commands and tools to automatically increase my character's sneak to maximum. Then I would find various monsters and sneak attack them and wait to see if they instantly know my location or not. 
 
 ### Bug 4 
+The bug: 
+
+Box type: 
+
+Type of testing:
+
+How I would identify the bug:
+
 
 ### Bug 5
+
+The bug: 
+
+Box type: 
+
+Type of testing:
+
+How I would identify the bug:
